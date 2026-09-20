@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TBH Digital Gizlilik Politikası</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #f6f8fb;
+      color: #101828;
+      line-height: 1.7;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 48px 24px 80px;
+    }
+
+    .card {
+      background: #ffffff;
+      border: 1px solid #e4e7ec;
+      border-radius: 18px;
+      padding: 40px;
+      box-shadow: 0 8px 30px rgba(16, 24, 40, 0.05);
+    }
+
+    h1 {
+      margin-top: 0;
+      color: #063a86;
+      font-size: 34px;
+    }
+
+    h2 {
+      margin-top: 36px;
+      color: #101828;
+      font-size: 22px;
+    }
+
+    p, li {
+      color: #475467;
+    }
+
+    .date {
+      color: #667085;
+      margin-bottom: 32px;
+    }
+
+    a {
+      color: #0872e0;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 20px 14px 40px;
+      }
+
+      .card {
+        padding: 24px 20px;
+      }
+
+      h1 {
+        font-size: 28px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="container">
+    <article class="card">
+      <h1>TBH Digital Gizlilik Politikası</h1>
+
+      <p class="date"><strong>Son güncelleme:</strong> 20 Eylül 2026</p>
+
+      <h2>1. Genel</h2>
+      <p>
+        TBH Digital, TBH Dijital Teknik Bakım ve Yönetim Hizmetleri A.Ş.
+        çalışanlarının kullanımı için geliştirilmiş şirket içi bir uygulamadır.
+        Herkese açık kayıt bulunmamaktadır; hesaplar yalnızca şirket yöneticileri
+        tarafından oluşturulur.
+      </p>
+
+      <p>
+        Uygulama; çalışma programlarının, izin süreçlerinin ve şirket içi
+        bildirimlerin yönetilmesi amacıyla kullanılmaktadır.
+      </p>
+
+      <h2>2. İşlenen veri kategorileri</h2>
+      <ul>
+        <li><strong>Kimlik ve iletişim bilgileri:</strong> Ad, soyad, şirket e-posta adresi ve telefon numarası.</li>
+        <li><strong>Çalışan bilgileri:</strong> Departman, ünvan, işe giriş tarihi, doğum tarihi ve hesap durumu.</li>
+        <li><strong>İzin verileri:</strong> İzin talepleri, tarih ve süreler, talep açıklamaları, onay veya ret notları ve izin bakiyesi hareketleri.</li>
+        <li><strong>Çalışma programı verileri:</strong> Görev tarihleri, lokasyon bilgisi, yapılacak iş açıklamaları, görev atamaları ve ilgili notlar.</li>
+        <li><strong>Bildirim verileri:</strong> Uygulama içi bildirim içerikleri ve okunma durumları.</li>
+        <li><strong>Teknik veriler:</strong> Oturum bilgileri, bildirim gönderimi için kullanılan cihaz kaydı, uygulama kurulum kimliği ve kimlik doğrulama altyapısının güvenlik amacıyla tuttuğu bağlantı kayıtları.</li>
+      </ul>
+
+      <h2>3. Verilerin kullanım amaçları</h2>
+      <p>Veriler yalnızca aşağıdaki amaçlarla işlenmektedir:</p>
+
+      <ul>
+        <li>Kullanıcı girişinin ve yetkilendirmenin sağlanması,</li>
+        <li>Çalışma programlarının hazırlanması, yayınlanması ve görüntülenmesi,</li>
+        <li>İzin taleplerinin oluşturulması ve değerlendirilmesi,</li>
+        <li>İzin bakiyelerinin hesaplanması,</li>
+        <li>İlgili kullanıcılara bildirim gönderilmesi,</li>
+        <li>Hesap güvenliğinin sağlanması ve kötüye kullanımın önlenmesi.</li>
+      </ul>
+
+      <p>
+        Veriler reklam, profilleme veya şirket dışı pazarlama amacıyla
+        kullanılmaz ve satılmaz.
+      </p>
+
+      <h2>4. Hizmet sağlayıcılar</h2>
+
+      <p>
+        <strong>Supabase:</strong> Veritabanı ve kimlik doğrulama altyapısının
+        sağlanmasında kullanılmaktadır.
+      </p>
+
+      <p>
+        <strong>Expo Push Service ve Apple Push Notification service:</strong>
+        Bildirimlerin cihazlara iletilmesinde kullanılmaktadır. Bu hizmetlere
+        bildirim başlığı, metni ve cihaz bildirim anahtarı iletilebilir.
+      </p>
+
+      <p>
+        Uygulamada reklam ağı, analiz veya kullanıcı takip aracı
+        bulunmamaktadır.
+      </p>
+
+      <h2>5. Bildirimler</h2>
+      <p>
+        Bildirim izni kullanıcının onayına bağlıdır ve cihaz ayarlarından
+        istenildiği zaman kapatılabilir.
+      </p>
+
+      <p>
+        Bildirim izni verildiğinde uygulama, bildirimleri ilgili cihaza
+        ulaştırabilmek amacıyla bir bildirim anahtarı kaydeder. Bildirim izni
+        kapalı olduğunda uygulama içi bildirimler kullanılmaya devam edilebilir.
+      </p>
+
+      <h2>6. Saklama ve güvenlik</h2>
+      <p>
+        Veriler, çalışma ilişkisinin ve ilgili yasal yükümlülüklerin gerektirdiği
+        süre boyunca saklanır.
+      </p>
+
+      <p>
+        Erişim, kullanıcıya tanımlanan yetkilerle sınırlandırılmıştır. Her
+        kullanıcı yalnızca yetkisi dahilindeki verilere erişebilir.
+      </p>
+
+      <p>
+        Veriler aktarım sırasında şifrelenir ve kullanıcı şifreleri geri
+        döndürülemez biçimde saklanır. Bir çalışanın hesabı pasifleştirildiğinde
+        uygulamaya erişimi kapatılabilir; geçmiş kayıtlar iş sürekliliği ve yasal
+        yükümlülükler kapsamında korunabilir.
+      </p>
+
+      <h2>7. Haklarınız</h2>
+      <p>
+        Yürürlükteki mevzuat kapsamında kişisel verilerinize erişme,
+        düzeltilmesini isteme, işlenmesine ilişkin bilgi talep etme ve gerekli
+        şartların oluşması halinde silinmesini talep etme haklarına sahipsiniz.
+      </p>
+
+      <p>
+        Profil bilgilerinizdeki değişiklikler için yöneticinizle iletişime
+        geçebilir, veri taleplerinizi aşağıdaki iletişim adresine
+        iletebilirsiniz.
+      </p>
+
+      <h2>8. İletişim</h2>
+      <p>
+        E-posta:
+        <a href="mailto:info@tbh.com.tr">info@tbh.com.tr</a>
+      </p>
+
+      <h2>9. Değişiklikler</h2>
+      <p>
+        Bu gizlilik politikası gerektiğinde güncellenebilir. Güncel sürüm bu
+        sayfada yayımlanır ve yukarıdaki son güncelleme tarihi değiştirilir.
+      </p>
+    </article>
+  </main>
+</body>
+</html>
